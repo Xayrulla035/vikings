@@ -1,0 +1,15 @@
+@font-face {
+    font-family: "Roboto";
+    src: url(../fonts/RobotoCondensed-Bold.ttf);
+    font-weight: 700;
+}
+@font-face {
+    font-family: "Roboto";
+    src: url(../fonts/RobotoCondensed-LightItalic.ttf);
+    font-weight: 300;
+}
+@font-face {
+    font-family: "Roboto";
+    src: url(../fonts/RobotoCondensed-Regular.ttf);
+    font-weight: 400;
+}
