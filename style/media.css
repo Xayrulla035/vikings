@@ -508,7 +508,20 @@
         height: 180px;
         position: relative;
         margin-bottom: 25px;
+        z-index: 1;
+        margin-top: 42px;
     }
+    .season_number{
+        position: absolute;
+        z-index: -1;
+        transition: 1s;
+        top: -50px;
+    }
+    .season_card:hover .season_number{
+        z-index: 1;
+        font-size: 85px;
+    }
+     
     .season_card img{
         position: absolute;
         bottom:  0;
@@ -516,7 +529,7 @@
         width: 250px;
         height: 180px;
     }
-     .season_play{
+    .season_play{
         padding: 7px 45px;
         font-size: 18px;
     }
@@ -788,10 +801,26 @@
         gap: 15px;
     }
     .season_card{
+        flex-shrink: 0;
         width: 220px;
         height: 150px;
-        margin-bottom: 20px;
+        position: relative;
+        margin-bottom: 25px;
+        z-index: 1;
+        margin-top: 42px;
     }
+    .season_number{
+        font-size: 66px;
+        position: absolute;
+        z-index: -1;
+        transition: 1s;
+        top: -45px;
+    }
+    .season_card:hover .season_number{
+        z-index: 1;
+        font-size: 76px;
+    }
+    
     .season_card img{
         width: 220px;
         height: 150px;
@@ -908,6 +937,7 @@
     .youtube{
         height: 380px;
     }
+
     .info{
         gap: 40px;
         top: 60%;
@@ -918,9 +948,34 @@
     .info_title-right{
         right: -50%;
     }
+
     .play img{
         width: 30px;
         height: 30px;
+    }
+    .season_card{
+        flex-shrink: 0;
+        width: 200px;
+        height: 140px;
+        position: relative;
+        margin-bottom: 25px;
+        z-index: 1;
+        margin-top: 25px;
+    }
+     .season_card img{
+        width: 200px;
+        height: 140px;
+    }
+    .season_number{
+        font-size: 46px;
+        position: absolute;
+        z-index: -1;
+        transition: 1s;
+        top: -30px;
+    }
+    .season_card:hover .season_number{
+        z-index: 1;
+        font-size: 56px;
     }
     .btn_mobile{
         font-size: 12px;
@@ -929,6 +984,7 @@
         font-size: 20px;
         
     }
+     
     .footer{
         font-size: 13px;
     }
@@ -1031,13 +1087,29 @@
         font-size: 18px;
         
     }
-    .season_card{
-        width: 200px;
-        height: 130px;
+   .season_card{
+        flex-shrink: 0;
+        width: 180px;
+        height: 120px;
+        position: relative;
+        margin-bottom: 25px;
+        z-index: 1;
+        margin-top: 18 px;
     }
-    .season_card img{
-        width: 200px;
-        height: 130px;
+     .season_card img{
+        width: 180px;
+        height: 120px;
+    }
+    .season_number{
+        font-size: 36px;
+        position: absolute;
+        z-index: -1;
+        transition: 1s;
+        top: -25px;
+    }
+    .season_card:hover .season_number{
+        z-index: 1;
+        font-size: 46px;
     }
      .season_play{
         padding: 4px 35px;
