@@ -1,0 +1,509 @@
+    @import url(./fonts.css);
+    
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "roboto";
+}
+body{
+    background-color: #0E0E0E;
+}
+.container{
+    max-width: 1500px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header{
+    padding-top: 50px;  
+    position: relative; 
+}
+
+.nav{
+    background: url(../images/intro_bg.png) no-repeat center center / cover;
+    height: 1030px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.nav_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translateY(-100px);
+}
+
+.gradient-top{
+    background: linear-gradient(180deg, #111213 0%, #111213 43.62%, rgba(32, 31, 33, 0) 86.33%);
+    height: 150px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gradient-botton{
+    background: linear-gradient(180deg, #0E0E0E 0%, rgba(17, 17, 17, 0.850295) 16.53%, rgba(32, 31, 33, 0) 100%);
+    height: 70px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: rotate(-180deg);
+}
+
+.nav_list{
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+
+.nav_list-link{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 100%;
+    color: #FFFFFF;
+    transition: 0.5s;
+    border-bottom: 3px solid;
+    border-color: transparent;
+}
+
+.nav_list-link:hover{
+    border-color: #85CCDC;
+    color: #85CCDC;
+}
+
+.main{
+    background-color: #0E0E0E;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.about_title{
+    padding: 100px 0;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 100%;
+    color: #FFFFFF;
+
+}
+
+.about_box{
+    display: flex;
+    align-items: center;
+    gap: 220px;
+    padding-bottom: 100px;
+}
+
+.about_text-left{
+    
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.about_text-right{
+     
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.youtube{
+    background: url(../images/youtube_bg.jpg) no-repeat center center / cover;
+    width: 100%;
+    height: 1080px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.info{
+    position: absolute;
+    top: 54%;
+    left: 62%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.info_title{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.info_title-right{
+    position: absolute;
+    top: 90%;
+    right: -73%;
+}
+
+.info h2{
+    font-weight: 300;
+    font-size: 72px;
+    line-height: 120%;
+    font-style: italic;
+    color: #85CCDC;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    
+}
+
+.btn_mobile{
+    display: none;
+    
+}
+ 
+.season_title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 100%;
+    color: #FFFFFF;
+}
+
+.season_box{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 75px;
+    align-items: center;
+    justify-content: center;
+}
+
+.season_card{
+    width: 350px;
+    height: 250px;
+    margin-bottom: 75px;
+    position: relative;
+    transition: 1s;
+    z-index: 1;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.season_card::before{
+    content: " ";
+    background-color:  rgba(0, 0, 0 , 0.1);
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    transition: 1s;
+
+}
+
+.season_card:hover::before{
+    background-color:  rgba(0, 0, 0 , 0.7);
+}
+
+.season_number{
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 100%;
+    color: #600E09;
+    position: absolute;
+    top: -25%;
+    left: 0%;
+    z-index: -1;
+    transition: 1s;
+}
+
+.season_card:hover .season_number{
+    z-index: 1;
+    font-size: 105px;
+}
+
+.season_play{
+    padding: 11px 78px;
+    border: 1px solid transparent;
+    background-color: #0E0E0E;
+    text-decoration: none;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 100%;
+    position: absolute;
+    transform: scale(0);
+    transition: 1s;
+    
+}
+
+.season_card:hover .season_play{
+    transform: scale(1);  
+}
+
+.heroes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 100px;
+}
+
+.heroes_title{
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 100%;
+    color: #FFFFFF;
+    padding-bottom: 100px;
+}
+
+.heroes_box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 75px;
+     
+}
+
+.heroes_right{
+    display: flex;
+    flex-direction: column;
+}
+
+.heroes_right-title{
+    font-weight: 300;
+    font-size: 72px;
+    line-height: 100%;
+    color: #85CCDC;
+    padding-bottom: 44px;
+    display: flex;
+    
+}
+
+.heroes_right-text{
+    width: 349px;
+    height: 273px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 120%;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.heroes_img{
+    position: relative;
+}
+
+.heroes_img::after{
+    content: url(../images/heroes_arrow-right.svg);
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translate(0% , -50%);
+    cursor: pointer;
+}
+
+.heroes_img::before{
+    content: url(../images/heroes_arrow-left.svg);
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translate(0 , -50%);
+    cursor: pointer;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    padding: 15px 0;
+}
+
+.header_1season{
+    background: url(../images/1season_bg.png) no-repeat center center / cover;
+    height: 900px;
+    width: 100%;
+    position: relative;    
+}
+
+.info_1season{
+    background-color: #0E0E0E;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50% , 0);
+    display: flex;
+    gap: 50px;
+    padding: 60px 0 ;
+}
+.info_1season-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 35px;
+    padding-top: 21px;
+
+}
+.info_1season-number{
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 100%;
+    color: #FFFFFF;
+}
+.info_1season-season{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 0%;
+    color: #FFFFFF;
+}
+.info_1season-right{
+    width: 1158px;
+    height: 215px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+.info_1season-text1{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    color: #FFFFFF;
+    padding-top: 40px;
+}
+.info_1season-text2{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    color: #FFFFFF;
+    
+}
+.nav_logo-1season{
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(50% , 75%);
+   
+}
+.series_box{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 75px;
+    align-items: center;
+    justify-content: center;
+}
+.series_card{
+    width: 350px;
+    height: 250px;
+    margin-bottom: 75px;
+    position: relative;
+    transition: 1s;
+    z-index: 1;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.series_card::before{
+    content: " ";
+    background-color:  rgba(0, 0, 0 , 0.1);
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    transition: 1s;
+
+}
+.series_card:hover::before{
+    background-color:  rgba(0, 0, 0 , 0.7);
+}
+.series_number{
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 100%;
+    color: #600E09;
+    position: absolute;
+    top: -25%;
+    left: 0%;
+    z-index: -1;
+    transition: 1s;
+}
+.series_card:hover .series_number{
+    z-index: 1;
+    font-size: 105px;
+}
+.series_play{
+    padding: 11px 78px;
+    border: 1px solid transparent;
+    background-color: #0E0E0E;
+    text-decoration: none;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 100%;
+    position: absolute;
+    transform: scale(0);
+    transition: 1s;
+    
+}
+.series_card:hover .series_play{
+    transform: scale(1);  
+}
+
+.series_title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;   
+    font-size: 36px;
+    line-height: 100%;
+    color: #FFFFFF;
+    padding: 100px 0;
+}
+
+
+

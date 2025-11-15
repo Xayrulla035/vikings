@@ -1,0 +1,1161 @@
+@media(max-width:1400px){
+    .info_1season{
+        gap: 40px;
+        padding: 20px 0 ;
+        width: 1300px;
+    }
+}
+@media(max-width:1300px){
+    .info_1season{
+        gap: 40px;
+        padding: 20px 0 ;
+        width: 1200px;
+    }
+}
+
+
+
+
+@media(max-width:1200px){
+    .nav{
+        height: 950px;
+    }
+    .nav_list{
+        gap: 22px;
+    }
+    .nav_list-link{
+        font-size: 34px;
+    }
+    .nav_box img{
+        height: 280px;
+        transform: translateY(35px)
+    }
+    .gradient-top{
+        height: 120px;
+    }
+    .about_title{
+        font-size: 32px;
+        padding: 80px 0;
+    }
+    .about_box{
+        gap: 180px;
+        padding-bottom: 90px;
+    }
+    .about_text-left{
+        font-size: 17px;
+        gap: 17px;
+    }
+    .about_text-right{
+        font-size: 17px;
+        gap: 17px; 
+    }
+    .youtube{
+        height: 980px;
+    }
+    .info{
+        gap: 80px;
+    }
+    .info h2{
+        font-size: 68px;
+    }
+    .info_title-right{
+        right: -63%;
+    }
+    .play img{
+        width: 90px;
+        height: 90px;
+    }
+    .btn{
+        font-size: 16px;
+    }
+    .season_box{
+        gap: 65px;
+    }
+    .season_title{
+        font-size: 32px;
+        padding: 80px 0;
+    } 
+    .season_card{
+        width: 300px;
+        height: 200px;
+        margin-bottom: 55px;
+    }
+    .season_card img{
+        width: 300px;
+        height: 200px;
+    }
+    .season_number{
+        font-size: 86px;
+        top: -30%;
+    }
+    .season_card:hover .season_number{
+        font-size: 96px;
+    }
+    .season_play{
+        padding: 10px 70px;
+        font-size: 32px;
+    }
+    .heroes{
+        padding-bottom: 80px;
+    }
+    .heroes_title{
+        font-size: 36px;
+        padding-bottom: 80px;
+    }
+    .heroes_box{
+        gap: 65px;
+    }
+    .heroes_right-title{
+        font-size: 65px;
+        padding-bottom: 40px;
+    }
+    .heroes_right-text{
+        width: 329px;
+        height: 253px;
+        font-size: 16px;
+        gap: 16px;
+    }
+    .heroes img{
+        height: 350px;
+    }
+    .heroes_img::after{
+        height: 25px;
+    }
+    .heroes_img::before{
+        height: 25px;
+    }
+    .header_1season{
+        height: 700px;
+       
+    }
+    .info_1season{
+        gap: 40px;
+        padding: 20px 0 ;
+        width: 1000px;
+    }
+    .info_1season-left{
+        padding-left: 32px;
+        padding-top: 18px;
+    }
+    .info_1season-right{
+        width: 800px;
+        height: 200px;
+        gap: 16px;
+    }
+    .info_1season-text1{
+        font-size: 16px;
+        padding-top: 20px;
+    }
+    .info_1season-text2{
+        font-size: 16px;
+    }
+    .nav_logo-1season img{
+        display: none;
+    }
+    .info_1season-number{
+        font-size: 86px;
+    }
+}
+
+
+@media(max-width:1000px){
+    
+    .nav{
+        height: 800px;
+    }
+    .nav_list{
+        gap: 20px;
+    }
+    .nav_list-link{
+        font-size: 32px;
+    }
+    .nav_box img{
+        height: 250px;
+        transform: translateY(30px)
+    }
+    .gradient-top{
+        height: 100px;
+    }
+    .about_title{
+        font-size: 30px;
+        padding: 70px 0;
+    }
+    .about_box{
+        gap: 160px;
+        padding-bottom: 80px;
+    }
+    .youtube{
+        height: 880px;
+    }
+    .info{
+        gap: 70px;
+    }
+    .info h2{
+        font-size: 64px;
+    }
+     .info_title-right{
+        right: -55%;
+    }
+    .play img{
+        width: 80px;
+        height: 80px;
+    }
+     .season_title{
+        font-size: 30px;
+        padding: 70px 0;
+    } 
+    .season_box{
+        gap: 60x;
+    }
+    .season_title{
+        font-size: 30px;
+        padding: 70px 0;
+    } 
+    .season_card{
+        width: 260px;
+        height: 160px;
+        margin-bottom: 55px;
+    }
+    .season_card img{
+        width: 260px;
+        height: 160px;
+    }
+    .season_number{
+        font-size: 76px;
+        top: -33%;
+    }
+    .season_card:hover .season_number{
+        font-size: 86px;
+    }
+    .season_play{
+        padding: 9px 65px;
+        font-size: 25px;
+    }
+    .heroes{
+        padding-bottom: 70px;
+    }
+    .heroes_title{
+        font-size: 32px;
+        padding-bottom: 70px;
+    }
+    .heroes_box{
+        gap: 55px;
+    }
+    .heroes_right-title{
+        font-size: 55px;
+        padding-bottom: 30px;
+        padding-top: 20px;
+    }
+    .heroes_right-text{
+        width: 309px;
+        height: 223px;
+        font-size: 14px;
+        gap: 14px;
+    }
+    .heroes img{
+        height: 300px;
+    }
+    .heroes_img::after{
+        height: 22px;
+    }
+    .heroes_img::before{
+        height: 22px;
+    }
+    .header_1season{
+        height: 600px;
+       
+    }
+    .info_1season{
+        gap: 30px;
+        padding: 15px 0 ;
+        width: 890px;
+    }
+   .info_1season-season{
+        font-size: 32px;
+    }
+    .info_1season-left{
+        padding-left: 28px;
+        padding-top: 16px;
+    }
+    .info_1season-right{
+        width: 700px;
+        height: 180px;
+        gap: 14px;
+    }
+    .info_1season-text1{
+        font-size: 14px;
+        padding-top: 18px;
+    }
+    .info_1season-text2{
+        font-size: 14px;
+    }
+    .nav_logo-1season img{
+        height: 40px;
+    }
+    .info_1season-number{
+        font-size: 76px;
+    }
+}
+
+
+@media(max-width:900px){
+    .header{
+        padding-top: 35px;
+    }
+    .nav{
+        height: 650px;
+    }
+    .nav_list{
+        gap: 18px;
+    }
+    .nav_list-link{
+        font-size: 30px;
+    }
+    .nav_box img{
+        height: 220px;
+        transform: translateY(28px)
+    }
+    .gradient-top{
+        height: 90px;
+    }
+    .about_title{
+        font-size: 28px;
+        padding: 60px 0;
+    }
+    .about_box{
+        gap: 140px;
+        padding-bottom: 70px;
+    }
+    .about_text-left{
+        font-size: 16px;
+        gap: 16px;
+    }
+    .about_text-right{
+        font-size: 16px;
+        gap: 16px; 
+    }
+    .youtube{
+        height: 780px;
+    }
+    .info{
+        gap: 60px;
+    }
+    .info h2{
+        font-size: 60px;
+    }
+    .info_title-right{
+        right: -45%;
+    }
+    .play img{
+        width: 70px;
+        height: 70px;
+    }
+    .btn{
+        font-size: 14px;
+    }
+    .season_title{
+        font-size: 28px;
+        padding: 60px 0;
+    }
+    .season_box{
+        gap: 50px;
+    }
+    .season_title{
+        font-size: 28px;
+        padding: 60px 0;
+    } 
+    .season_card{
+        width: 230px;
+        height: 130px;
+        margin-bottom: 55px;
+    }
+    .season_card img{
+        width: 230px;
+        height: 130px;
+    }
+    .season_number{
+        font-size: 70px;
+        top: -40%;
+    }
+    .season_card:hover .season_number{
+        font-size: 80px;
+    }
+    .season_play{
+        padding: 7px 55px;
+        font-size: 22px;
+    }
+    .heroes{
+        padding-bottom: 60px;
+    }
+    .heroes_title{
+        font-size: 28px;
+        padding-bottom: 60px;
+    }
+    .heroes_box{
+        gap: 50px;
+    }
+    .heroes_right-title{
+        font-size: 50px;
+        padding-bottom: 25px;
+        padding-top: 20px;
+    }
+    .heroes_right-text{
+        width: 299px;
+        height: 203px;
+        font-size: 12px;
+        gap: 12px;
+    }
+    .heroes img{
+        height: 270px;
+    }
+    .heroes_img::after{
+        height: 20px;
+    }
+    .heroes_img::before{
+        height: 20px;
+    }
+    .footer{
+        font-size: 17px;
+    }
+    .header_1season{
+        height: 500px;
+       
+    }
+    .info_1season{
+        gap: 25px;
+        padding: 13px 0 ;
+        width: 790px;
+    }
+   .info_1season-season{
+        font-size: 28px;
+    }
+    .info_1season-left{
+        padding-left: 26px;
+        padding-top: 14px;
+    }
+    .info_1season-right{
+        width: 650px;
+        height: 160px;
+        gap: 12px;
+    }
+    .info_1season-text1{
+        font-size: 12px;
+        padding-top: 14px;
+    }
+    .info_1season-text2{
+        font-size: 12px;
+    }
+    .nav_logo-1season img{
+        height: 35px;
+    }
+}
+
+
+@media(max-width:800px){
+    .nav{
+        height: 550px;
+
+    }
+    .nav_list{
+        gap: 16px;
+    }
+    .nav_list-link{
+        font-size: 26px;
+    }
+    .nav_box img{
+        height: 200px;
+        transform: translateY(50px)
+    }
+    .gradient-top{
+        height: 80px;
+    }
+    .about_title{
+        font-size: 26px;
+        padding: 50px 0;
+    }
+    .about_box{
+        gap: 120px;
+        padding-bottom: 60px;
+    }
+    .youtube{
+        height: 680px;
+    }
+    .info{
+        gap: 50px;
+    }
+    .info h2{
+        font-size: 55px;
+    }
+    .play img{
+        width: 60px;
+        height: 60px;
+    }
+    .season_title{
+        font-size: 26px;
+        padding: 30px 0;
+         
+    }
+    .season_box{
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        overflow: hidden;
+        overflow-x: scroll;
+        gap: 25px;
+    }
+    .season_card{
+        flex-shrink: 0;
+        width: 250px;
+        height: 180px;
+        position: relative;
+        margin-bottom: 25px;
+        z-index: 1;
+        margin-top: 42px;
+    }
+    .season_number{
+        position: absolute;
+        z-index: -1;
+        transition: 1s;
+        top: -50px;
+    }
+    .season_card:hover .season_number{
+        z-index: 1;
+        font-size: 85px;
+    }
+     
+    .season_card img{
+        position: absolute;
+        bottom:  0;
+        left: 0;
+        width: 250px;
+        height: 180px;
+    }
+    .season_play{
+        padding: 7px 45px;
+        font-size: 18px;
+    }
+    .heroes{
+        padding-bottom: 50px;
+    }
+    .heroes_title{
+        font-size: 25px;
+        padding-bottom: 50px;
+    }
+    .heroes_box{
+        gap: 40px;
+    }
+    .heroes_right-title{
+        font-size: 45px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    .heroes_right-text{
+        width: 269px;
+        height: 173px;
+        font-size: 12px;
+        gap: 12px;
+    }
+    .heroes img{
+        height: 230px;
+    }
+    .heroes_img::after{
+        display: none;
+    }
+    .heroes_img::before{
+        display: none;
+    }
+    .header_1season{
+        height: 450px;
+       
+    }
+    .info_1season{
+        gap: 22px;
+        padding: 10px 0 ;
+        width: 690px;
+    }
+   .info_1season-season{
+        font-size: 25px;
+    }
+    .info_1season-left{
+        padding-left: 22px;
+        padding-top: 12px;
+    }
+    .info_1season-right{
+        width: 600px;
+        height: 140px;
+        gap: 12px;
+    }
+    .info_1season-text1{
+        font-size: 12px;
+        padding-top: 14px;
+    }
+    .info_1season-text2{
+        font-size: 12px;
+    }
+    .nav_logo-1season img{
+        height: 30px;
+    }
+    .info_1season-number{
+        font-size: 76px;
+    }
+
+}
+
+
+@media(max-width:700px){
+    .header{
+        padding-top: 30px;
+    }
+    .nav{
+        height: 450px;
+
+    }
+    .nav_list{
+        gap: 14px;
+    }
+    .nav_list-link{
+        font-size: 20px;
+        
+    }
+    .nav_box img{
+        height: 180px;
+        transform: translateY(65px)
+    }
+    .gradient-top{
+        height: 70px;
+    }
+    .about_title{
+        font-size: 24px;
+        padding: 40px 0;
+    } 
+    .about_box{
+        gap: 80px;
+        padding-bottom: 50px;
+    }
+    .about_text-left{
+        font-size: 15px;
+        gap: 15px;
+    }
+    .about_text-right{
+        font-size: 15px;
+        gap: 15px; 
+    }
+    .youtube{
+        height: 580px;
+    }
+    .info{
+        gap: 40px;
+        top: 60%;
+    }
+    .info h2{
+        font-size: 50px;
+    }
+    .play img{
+        width: 50px;
+        height: 50px;
+    }
+    .btn{
+        font-size: 13px;
+    }
+    .season_title{
+        font-size: 24px;
+        
+    }
+    .heroes{
+        padding-bottom: 25px;
+    }
+    .heroes_box{
+        flex-direction: column;
+    }
+    .heroes_right{
+        align-items: center;
+    }
+    .heroes_title{
+        font-size: 20px;
+        padding-bottom: 40px;
+    }
+    .heroes_box{
+        gap: 35px;
+    }
+    .heroes_right-title{
+        font-size: 35px;
+        padding-bottom: 15px;
+    }
+    .heroes_right-text{
+        text-align: justify;
+        font-size: 12px;
+        gap: 12px;
+        padding-bottom: 50px;
+    }
+    .heroes img{
+        height: 230px;
+    }
+    .footer{
+        font-size: 15px;
+    }
+    .header_1season{
+        height: 400px;
+       
+    }
+    .info_1season{
+        gap: 18px;
+        padding: 10px 0 ;
+        width: 600px;
+        overflow: hidden;
+        overflow-y: scroll;
+        
+    }
+   .info_1season-season{
+        font-size: 22px;
+    }
+    .info_1season-left{
+        padding-left: 18px;
+        padding-top: 10px;
+    }
+    .info_1season-right{
+        width: 550px;
+        height: 120px;
+        gap: 10px;
+    }
+    .info_1season-text1{
+        font-size: 12px;
+        padding-top: 12px;
+    }
+    .info_1season-text2{
+        font-size: 12px;
+    }
+    .nav_logo-1season img{
+        height: 25px;
+    }
+    .info_1season-number{
+        font-size: 66px;
+    }
+}
+
+
+@media(max-width:600px){
+    .nav{
+        height: 360px;
+
+    }
+    .nav_list{
+        gap: 12px;
+    }
+    .nav_list-link{
+        font-size: 18px;
+    }
+    .nav_box img{
+        height: 150px;
+        transform: translateY(75px)
+    }
+    .gradient-top{
+        height: 60px;
+    }
+    .about_title{
+        font-size: 22px;
+        padding: 30px 0;
+    }
+    .about_box{
+        gap: 60px;
+        padding-bottom: 40px;
+    }
+    .about_text-left{
+        font-size: 14px;
+        gap: 14px;
+    }
+    .about_text-right{
+        font-size: 14px;
+        gap: 14px; 
+    }
+    .youtube{
+        height: 480px;
+    }
+    .info{
+        top: 60%;
+    }
+    .info h2{
+        font-size: 40px;
+    }
+    .play img{
+        width: 40px;
+        height: 40px;
+    }
+    .btn{
+        display: none;
+    }
+    .btn_mobile{
+        display: block;
+        color: #FFFFFF;
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 100%;
+        gap: 15px;
+    }
+    .season_title{
+        font-size: 22px;
+         
+    }
+    .season_box{
+        gap: 15px;
+    }
+    .season_card{
+        flex-shrink: 0;
+        width: 220px;
+        height: 150px;
+        position: relative;
+        margin-bottom: 25px;
+        z-index: 1;
+        margin-top: 42px;
+    }
+    .season_number{
+        font-size: 66px;
+        position: absolute;
+        z-index: -1;
+        transition: 1s;
+        top: -45px;
+    }
+    .season_card:hover .season_number{
+        z-index: 1;
+        font-size: 76px;
+    }
+    
+    .season_card img{
+        width: 220px;
+        height: 150px;
+    }
+    .season_play{
+        padding: 6px 42px;
+        font-size: 16px;
+    }
+    .heroes{
+        padding-bottom: 20px;
+    }
+    .heroes_title{
+        font-size: 20px;
+        padding-bottom: 30px;
+    }
+    .heroes_box{
+        gap: 25px;
+    }
+    .heroes_right-title{
+        font-size: 30px;
+        padding-bottom: 10px;
+    }
+    .heroes_right-text{
+        
+        font-size: 12px;
+        gap: 12px;
+    }
+    .heroes img{
+        height: 200px;
+    }
+    .footer{
+        font-size: 14px;
+    }
+    .header_1season{
+        height: 350px;
+       
+    }
+    .info_1season{
+        gap: 15px;
+        padding: 10px 0 ;
+        width: 500px;
+    
+    }
+   .info_1season-season{
+        font-size: 20px;
+    }
+    .info_1season-left{
+        padding-left: 15px;
+        padding-top: 8px;
+    }
+    .info_1season-right{
+        width: 500px;
+        height: 80px;
+        gap: 8px;
+    }
+    .info_1season-text1{
+        font-size: 12px;
+        padding-top: 12px;
+    }
+    .info_1season-text2{
+        font-size: 12px;
+    }
+    .nav_logo-1season img{
+        height: 20px;
+    }
+    .info_1season-number{
+        font-size: 56px;
+    }
+}
+
+
+@media(max-width:500px){
+    .header{
+        padding-top: 25px;
+    }
+    .nav{
+        height: 320px;
+
+    }
+    .nav_list{
+        gap: 10px;
+    }
+    .nav_list-link{
+        font-size: 14px;
+    }
+    .nav_box img{
+        height: 130px;
+        transform: translateY(75px)
+    }
+    .gradient-top{
+        height: 50px;
+    }
+    .about_title{
+        font-size: 20px;
+        padding: 20px 0;
+    }
+    .about_box{
+        gap: 40px;
+        padding-bottom: 20px;
+        flex-direction: column;
+         
+    }
+    .about_text-left{
+        font-size: 13px;
+        gap: 13px;
+        flex-direction: row;
+        text-align: center;
+    }
+    .about_text-right{
+        font-size: 13px;
+        gap: 13px; 
+        text-align: center;
+    }
+    .youtube{
+        height: 380px;
+    }
+
+    .info{
+        gap: 40px;
+        top: 60%;
+    }
+    .info h2{
+        font-size: 30px;
+    }
+    .info_title-right{
+        right: -50%;
+    }
+
+    .play img{
+        width: 30px;
+        height: 30px;
+    }
+    .season_card{
+        flex-shrink: 0;
+        width: 200px;
+        height: 140px;
+        position: relative;
+        margin-bottom: 25px;
+        z-index: 1;
+        margin-top: 25px;
+    }
+     .season_card img{
+        width: 200px;
+        height: 140px;
+    }
+    .season_number{
+        font-size: 46px;
+        position: absolute;
+        z-index: -1;
+        transition: 1s;
+        top: -30px;
+    }
+    .season_card:hover .season_number{
+        z-index: 1;
+        font-size: 56px;
+    }
+    .btn_mobile{
+        font-size: 12px;
+    }
+    .season_title{
+        font-size: 20px;
+        
+    }
+     
+    .footer{
+        font-size: 13px;
+    }
+    .header_1season{
+        height: 300px;
+       
+    }
+    .info_1season{
+        gap: 12px;
+        padding: 8px 0 ;
+        width: 400px;
+        
+    }
+   .info_1season-season{
+        font-size: 18px;
+    }
+    .info_1season-left{
+        padding-left: 12px;
+        padding-top: 6px;
+    }
+    .info_1season-right{
+        width: 400px;
+        height: 60px;
+        gap: 8px;
+    }
+    .info_1season-text1{
+        font-size: 12px;
+        padding-top: 12px;
+    }
+    .info_1season-text2{
+        font-size: 12px;
+    }
+    .nav_logo-1season img{
+        height: 18px;
+    }
+    .info_1season-number{
+        font-size: 46px;
+    }
+}
+
+
+@media(max-width:400px){
+    .header{
+        padding-top: 20px;
+    }
+    .nav{
+        height: 280px;
+
+    }
+    .nav_list{
+        gap: 8px;
+    }
+    .nav_list-link{
+        font-size: 14px;
+    }
+    .nav_box img{
+        height: 110px;
+        transform: translateY(95px)
+    }
+    .gradient-top{
+        height: 40px;
+    }
+    .about_title{
+        font-size: 18px;
+        padding: 10px 0;
+    }
+    .about_box{
+        gap: 30px;
+        padding-bottom: 10px;
+    }
+    .about_text-left{
+        font-size: 12px;
+        gap: 12px;
+    }
+    .about_text-right{
+        font-size: 12px;
+        gap: 12px; 
+    }
+    .youtube{
+        height: 280px;
+    }
+    .info{
+        top: 65%;
+        left: 75%;
+    }
+    .info h2{
+        font-size: 16px;
+    }
+    .info_title-right{
+        right: -30%;
+    }
+    .play img{
+        width: 20px;
+        height: 20px;
+    }
+    .season_box{
+        gap: 10px;
+    }
+    .season_title{
+        font-size: 18px;
+        
+    }
+   .season_card{
+        flex-shrink: 0;
+        width: 180px;
+        height: 120px;
+        position: relative;
+        margin-bottom: 25px;
+        z-index: 1;
+        margin-top: 18 px;
+    }
+     .season_card img{
+        width: 180px;
+        height: 120px;
+    }
+    .season_number{
+        font-size: 36px;
+        position: absolute;
+        z-index: -1;
+        transition: 1s;
+        top: -25px;
+    }
+    .season_card:hover .season_number{
+        z-index: 1;
+        font-size: 46px;
+    }
+     .season_play{
+        padding: 4px 35px;
+        font-size: 12px;
+    }
+    .footer{
+        font-size: 12px;
+    }
+    .heroes img{
+        height: 180px;
+    }
+    .header_1season{
+        height: 250px;
+       
+    }
+    .info_1season{
+        gap: 8px;
+        padding: 6px 0 ;
+        width: 300px;
+        
+    }
+   .info_1season-season{
+        font-size: 16px;
+    }
+    .info_1season-left{
+        padding-left: 12px;
+        padding-top: 6px;
+    }
+    .info_1season-right{
+        width: 400px;
+        height: 60px;
+        gap: 8px;
+    }
+    .info_1season-text1{
+        font-size: 12px;
+        padding-top: 12px;
+    }
+    .info_1season-text2{
+        font-size: 12px;
+    }
+    .nav_logo-1season img{
+        height: 18px;
+    }
+    .info_1season-number{
+        font-size: 36px;
+    }
+     
+
+}
