@@ -822,7 +822,7 @@
     .heroes img{
         height: 200px;
     }
-     .footer{
+    .footer{
         font-size: 14px;
     }
     .header_1season{
@@ -833,7 +833,7 @@
         gap: 15px;
         padding: 10px 0 ;
         width: 500px;
-        
+    
     }
    .info_1season-season{
         font-size: 20px;
